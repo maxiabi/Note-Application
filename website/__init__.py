@@ -33,6 +33,11 @@ def create_app():
 
     return app
 
+def Index_check():
+    i = 0
+    i += 1
+    i -= 2
+
 
 def create_database(app):
     if not path.exists('website/' + DB_NAME):
